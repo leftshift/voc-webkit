@@ -1,0 +1,11 @@
+{
+  "name": "voc",
+  "main": "index.html",
+  "window" : {
+    "toolbar" : false,
+    "width" : 600,
+    "height" : 400,
+    "min_width" : 800,
+    "min_height" : 600
+  }
+}
