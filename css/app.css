@@ -41,10 +41,10 @@ body {
  }
 
 .content {
-  display:inline;
-  float:left;
+  display: inline;
+  float: left;
   width: -moz-calc(100% - 200px);
   width: -webkit-calc(100% - 200px);
-  width: calc(100% - 200px);
+  width: *calc(100% - 200px);
   height: 100%;
 }
