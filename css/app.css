@@ -1,15 +1,25 @@
 body {
+  height: 100vh;
+  width: auto;
+}
+
+.window-body {
   padding-top: 50px;
+  height: 100%;
+  width:100%;
 }
 
 .sidebar {
+  display:inline;
   float: left;
+  overflow:auto;
   padding-top: 10px;
   width : 200px;
-  height: 100vh - 50px;
+  height: 100%;
   background-color: #fff;
   border-right: 1px solid #e7e7e7;
 }
+
 .sidebar ul {
   list-style-type: none;
   padding: 0;
@@ -29,3 +39,12 @@ body {
  .sidebar .active {
    color: #333;
  }
+
+.content {
+  display:inline;
+  float:left;
+  width: -moz-calc(100% - 200px);
+  width: -webkit-calc(100% - 200px);
+  width: calc(100% - 200px);
+  height: 100%;
+}

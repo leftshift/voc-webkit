@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/app.css">
   </head>
+
   <body>
     <!-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -40,29 +41,36 @@
       </div>
     </div>
 
-    <div class="sidebar">
-      <ul>
-        <a href="#" data-path="path/to/test">
-          <li>
-            Test
-          </li>
-        </a>
-        <a href="#" data-path="schnitzel/">
-          <li>
-            Another test
-          </li>
-        </a>
-        <a href="#" data-path="bratwurst/even worse">
-          <li>
-            yet another test
-          </li>
-        </a>
-      </ul>
+    <div class="window-body">
+      <div class="sidebar">
+        <ul>
+          <a href="#" data-path="path/to/test">
+            <li>
+              Test
+            </li>
+          </a>
+          <a href="#" data-path="schnitzel/">
+            <li>
+              Another test
+            </li>
+          </a>
+          <a href="#" data-path="bratwurst/even worse">
+            <li>
+              yet another test
+            </li>
+          </a>
+        </ul>
 
-      <a href="#" class="btn btn-warning" id="reload">Reload!</a>
-      <a href="#" class="btn btn-danger" id="dev-btn">Open dev tools!</a>
+        <a href="#" class="btn btn-warning" id="reload">Reload!</a>
+        <a href="#" class="btn btn-danger" id="dev-btn">Open dev tools!</a>
+        <a href="#" class="btn btn-info" id="dev-add-sidebar-item">Add item to sidebar!</a>
+
+      </div>
+
+      <div class="content">
+        test
+      </div>
     </div>
-
 
     <script src="js/jquery-2.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
